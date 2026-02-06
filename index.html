@@ -1,102 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>StarDustAI</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              slate: {
-                850: '#1e293b',
-                900: '#0f172a',
-                950: '#020617',
-              },
-              primary: {
-                50: '#f0f9ff',
-                100: '#e0f2fe',
-                400: '#38bdf8',
-                500: '#0ea5e9',
-                600: '#0284c7',
-                700: '#0369a1',
-                900: '#0c4a6e',
-              }
-            },
-            fontFamily: {
-              serif: ['Merriweather', 'serif'],
-              sans: ['Inter', 'sans-serif'],
-            },
-            animation: {
-              'blob': 'blob-float 20s infinite ease-in-out',
-            }
-          }
-        }
-      }
-    </script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
-    <style>
-      body {
-        font-family: 'Inter', sans-serif;
-      }
-      /* Custom Report Content Overrides */
-      .report-content h1 { font-family: 'Merriweather', serif; font-size: 2em; font-weight: 700; margin-top: 1.5em; margin-bottom: 0.5em; color: #f1f5f9; }
-      .report-content h2 { font-family: 'Merriweather', serif; font-size: 1.5em; font-weight: 700; margin-top: 1.5em; margin-bottom: 0.75em; color: #e2e8f0; border-bottom: 1px solid #334155; padding-bottom: 0.2em; }
-      .report-content h3 { font-family: 'Merriweather', serif; font-size: 1.25em; font-weight: 600; margin-top: 1.2em; margin-bottom: 0.5em; color: #cbd5e1; }
-      .report-content p { margin-bottom: 1em; line-height: 1.7; color: #cbd5e1; }
-      .report-content ul, .report-content ol { margin-bottom: 1em; padding-left: 1.5em; color: #cbd5e1; }
-      .report-content li { margin-bottom: 0.5em; line-height: 1.6; }
-      .report-content strong { font-weight: 600; color: #f8fafc; }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StarDustAI</title>
 
-      /* Background Animations */
-      @keyframes slow-pan {
-        0% { transform: scale(1.1); }
-        100% { transform: scale(1.25) translate(-2%, -2%); }
-      }
-      
-      @keyframes blob-float {
-        0% { transform: translate(0px, 0px) scale(1); }
-        33% { transform: translate(30px, -50px) scale(1.1); }
-        66% { transform: translate(-20px, 20px) scale(0.9); }
-        100% { transform: translate(0px, 0px) scale(1); }
-      }
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
 
-      .animate-slow-pan {
-        animation: slow-pan 45s ease-in-out infinite alternate;
-      }
-      
-      .animate-blob {
-        animation: blob-float 20s infinite ease-in-out;
-      }
-
-      .paused {
-        animation-play-state: paused !important;
-      }
-      
-      .delay-2000 { animation-delay: 2s; }
-      .delay-5000 { animation-delay: 5s; }
-
-      /* Noise Texture */
-      .bg-noise {
-        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.05'/%3E%3C/svg%3E");
-      }
-    </style>
-  <script type="importmap">
-{
-  "imports": {
-    "react/": "https://esm.sh/react@^19.2.4/",
-    "react": "https://esm.sh/react@^19.2.4",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
-    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
-    "@google/genai": "https://esm.sh/@google/genai@^1.40.0",
-    "react-markdown": "https://esm.sh/react-markdown@^10.1.0"
-  }
-}
-</script>
 </head>
-  <body class="bg-slate-950 text-slate-100 min-h-screen">
-    <div id="root"></div>
-  </body>
+
+<body class="bg-slate-950 text-slate-100 min-h-screen">
+  <div id="root"></div>
+
+  <script type="module" src="/index.tsx"></script>
+</body>
 </html>
