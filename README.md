@@ -91,7 +91,7 @@ types.ts – TypeScript interfaces and data models
 
 ⚙️ Installation & Setup
 1️⃣ Clone Repository
-git clone https://github.com/yourusername/stardustai.git
+git clone https://github.com/eastuuu/AI-Research-Agent-StarDust
 cd stardustai
 
 2️⃣ Backend Setup
