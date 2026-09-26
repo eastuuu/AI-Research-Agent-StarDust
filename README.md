@@ -1,24 +1,24 @@
-⭐ StarDustAI – Autonomous AI Research Agent
+StarDustAI – Autonomous AI Research Agent
 StarDustAI is an AI-powered research assistant that automates deep topic exploration and generates structured, academic-style research reports using advanced reasoning models.
 The system intelligently decomposes research topics into focused sub-questions, performs multi-stage analysis, and synthesizes insights into well-organized, factual reports within seconds.
 
-🚀 Demo
-👉 https://ai.studio/apps/drive/1fuF6RFaQbDy3Dst22WYr5yJ0_x4cxHgU
+Demo
+https://ai.studio/apps/drive/1fuF6RFaQbDy3Dst22WYr5yJ0_x4cxHgU
 
-📌 Overview
+Overview
 Researching complex topics manually is time-consuming and often unstructured. StarDustAI solves this by acting as an autonomous research agent that:
 Breaks topics into meaningful research questions
 Performs multi-step AI reasoning
 Generates comprehensive structured reports
 Presents insights in a clean and readable UI
 
-✨ Features
-🧠 Multi-Step Research Pipeline
+Features
+Multi-Step Research Pipeline
 Topic decomposition into sub-questions
 Independent analysis of each sub-topic
 Intelligent synthesis of final report
 
-📊 Structured Academic Reports
+Structured Academic Reports
 Each generated report includes:
 Overview
 Key Findings
@@ -27,20 +27,20 @@ Risks & Limitations
 Future Outlook
 Conclusion
 
-⚡ Real-Time AI Reasoning
+Real-Time AI Reasoning
 Powered by advanced Large Language Models
 Generates research within seconds
 
-🎨 Modern Minimal UI
+Modern Minimal UI
 Clean, academic-style interface
 Responsive design
 Smooth user experience
 
-🔍 Topic Exploration Suggestions
+Topic Exploration Suggestions
 Suggested research topics
 User-friendly input workflow
 
-🏗️ System Architecture
+System Architecture
 User Input Topic
         ↓
 Planning Phase
@@ -71,7 +71,7 @@ Prompt Orchestration Workflow
 Deployment
 AI Studio
 
-📂 Project Structure
+Project Structure
 StarDustAI
 
 App.tsx – Main app layout and entry logic
@@ -89,7 +89,7 @@ Services
 geminiService.ts – Manages AI model communication and research workflow
 types.ts – TypeScript interfaces and data models
 
-⚙️ Installation & Setup
+Installation & Setup
 1️⃣ Clone Repository
 git clone https://github.com/eastuuu/AI-Research-Agent-StarDust
 cd stardustai
@@ -109,32 +109,32 @@ cd frontend
 npm install
 npm start
 
-🧪 Example Usage
+Example Usage
 Enter a research topic
 AI generates sub-questions
 System performs multi-step analysis
 Structured research report is generated
 
-📸 Screenshots
+Screenshots
 
-👉 <img width="1919" height="806" alt="Screenshot 2026-02-06 223424" src="https://github.com/user-attachments/assets/b5066cbd-69c9-4d8c-a6a1-66ad435ce793" />
+<img width="1919" height="806" alt="Screenshot 2026-02-06 223424" src="https://github.com/user-attachments/assets/b5066cbd-69c9-4d8c-a6a1-66ad435ce793" />
 <img width="1919" height="803" alt="Screenshot 2026-02-06 223853" src="https://github.com/user-attachments/assets/677d59f4-ce26-497e-aeca-0df2339da4be" />
 <img width="1896" height="829" alt="Screenshot 2026-02-06 223833" src="https://github.com/user-attachments/assets/f46c75cc-c886-4515-9653-c75bad98925c" />
 
-🎯 Use Cases
+Use Cases
 Academic Research
 Technical Topic Exploration
 Student Learning Assistance
 Market & Technology Research
 Knowledge Summarization
 
-🧩 Challenges Solved
+Challenges Solved
 Automating structured research workflows
 Multi-step AI reasoning orchestration
 Balancing speed and report quality
 Designing user-friendly research interfaces
 
-🔮 Future Improvements
+Future Improvements
 Research report saving & history
 Citation and source referencing
 Export to PDF / DOCX
@@ -142,16 +142,16 @@ Multi-agent collaborative research
 Real-time web search integration
 User personalization & preferences
 
-👨‍💻 Author
+Author
 Utkarsh Anand
 
-📄 License
+License
 This project is licensed under the MIT License.
 
-⭐ Acknowledgements
+Acknowledgements
 Large Language Model APIs
 Modern AI Agent Design Concepts
 Open-source UI & ML community
 
-🌌 StarDustAI Vision
+StarDustAI Vision
 Making advanced research faster, smarter, and more accessible using autonomous AI agents.
